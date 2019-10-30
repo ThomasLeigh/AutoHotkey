@@ -1,17 +1,17 @@
-;- Ctrl+2 = <!-- {wrap selected text with “”} -->
+;- Ctrl+2 = <!-- {wrap selected text with „”} -->
 ^2::
 saved := clipboardall
 Send, ^x
-SendInput, {U+201C}%clipboard%{U+201D}
+SendInput, {U+201E}%clipboard%{U+201D}
 clipboard := saved
 saved := ""
 Return
 	
-;- Ctrl+3 = <!-- {wrap selected text with ‘’} -->
+;- Ctrl+3 = <!-- {wrap selected text with ‚’} -->
 ^3::
 saved := clipboardall
 Send, ^x
-SendInput, {U+2018}%clipboard%{U+2019}
+SendInput, {U+201A}%clipboard%{U+2019}
 clipboard := saved
 saved := ""
 Return
