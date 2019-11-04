@@ -3,7 +3,7 @@
  
 formattime, hourvar, , HH
 formattime, minutevar, , mm
-formattime, dayvar, , dd
+formattime, dayvar, , d
 formattime, monthvar, , MM
 formattime, yearvar, , yyyy
 
